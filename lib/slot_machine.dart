@@ -58,6 +58,7 @@ class _SlotMachineState extends State<SlotMachine> {
 
   Future<void> _spin() async {
     if (_coins <= 0 || _isSpinning) return;
+    await SoundService.playClick();
     SoundService.playClick();
     setState(() {
       _isSpinning = true;
