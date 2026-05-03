@@ -6,7 +6,7 @@
 
 | Главный экран         | Победа        | Монеты закончились | Джекпот           |
 | --------------------- | ------------- | ------------------ | ----------------- |
-| steps/main_screen.png | steps/win.png | steps/no_coins.png |steps/jackpot.png|
+| steps/main_screen.png | steps/win.png | steps/no_coins.png |C:\Users\Partner34.com\Documents\flutter-lab7\steps\jackpot.png|
 
 ## 🕹️Как играть
 
