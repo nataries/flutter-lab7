@@ -6,7 +6,7 @@
 
 | Главный экран         | Победа        | Монеты закончились | Джекпот           |
 | --------------------- | ------------- | ------------------ | ----------------- |
-| steps\main_screen.png | steps\win.png | steps\no_coins.png | steps\jackpot.png |
+| steps/main_screen.png | steps/win.png | steps/no_coins.png |steps/jackpot.png|
 
 ## 🕹️Как играть
 
@@ -43,7 +43,7 @@ flutter run -d chrome
 
 - Flutter 3.41.1
 - Dart 3.11.0
-- Платформа: Web, Android
+- **Платформа:** Web, Android
 
 ## 📚Что изучено
 
