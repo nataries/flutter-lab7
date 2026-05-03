@@ -6,7 +6,7 @@
 
 | Главный экран         | Победа        | Монеты закончились | Джекпот           |
 | --------------------- | ------------- | ------------------ | ----------------- |
-|![](steps\main_screen.png)|![](steps\win.png) | ![](steps\no_coins.png) | ![](steps\jackpot.png) |
+|![Экран](steps/main_screen.png)|![Экран](steps\win.png) | ![Экран](steps\no_coins.png) | ![Экран](steps\jackpot.png) |
 
 ## 🕹️Как играть
 
