@@ -1,17 +1,61 @@
-# slot_machine_isp231
+# Учебное приложение. 🎰 Слот-машина
 
-A new Flutter project.
+Простое Flutter-приложение - симулятор казино. Крути барабаны, собирай одинаковые символы и выигрывай монеты!
 
-## Getting Started
+## 📱Скриншоты
 
-This project is a starting point for a Flutter application.
+|Главный экран|Победа|Монеты закончились|
+|---|---|---|
+|---|---|---|
 
-A few resources to get you started if this is your first Flutter project:
+## 🕹️Как играть
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
++ Нажмите **КРУТИТЬ** для запуска барабанов
++ Три одинаковых символа - победа (+3 монеты)
++ Три семерки - джекпот (+10 монет)
++ Разные символы - проигрыш (-1 монета)
++ Начните заново кнопкой **Начать заново**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀Запуск проекта
+
+**Требования:** Flutter 3.x, Dart 3.x
+
+```
+# Клонировать репозиторий
+git clone https://github.com/nataries/flutter-lab7.git
+
+# Перейти в папку
+cd slot_machine
+
+# Установить зависимости
+flutter pub get
+
+# Запустить в Chrome
+flutter run -d chrome
+```
+
+## Установка на Android
+
+Скачайте готовый APK:
+[app-release.apk](https://apkpure.net/ru/app-release/apprelease.cdn.tv.br/download/4.0.1)
+
+## 🛠️Технологии
+
++ Flutter 3.41.1
++ Dart 3.11.0
++ Платформа: Web, Android
+
+## 📚Что изучено
+
++ `StatefulWidget` и управление состоянием через `setState()`
++ Работа с локальными изображениями через `Image.asset()`
++ Генерация случайных чисел через `dart:math`
++ Анимация через `async/await` и `AnimatedOpacity`
++ Созздание иконки в Krita и подключение через `flutter_launch_icons`
++ Сборка под Web и Android
+
+## 🤩Автор
+
+**Заставная Наталия** - группа ИСП-231
+
+Лабораторная работа №6. 2026
