@@ -13,7 +13,6 @@ class SlotMachine extends StatefulWidget {
 
 class _SlotMachineState extends State<SlotMachine> {
   var _isMuted = false;
-  var _backgroundStarted = false;
 
   final _random = Random();
   final _symbols = [
@@ -64,11 +63,6 @@ class _SlotMachineState extends State<SlotMachine> {
       _isSpinning = true;
       _message = '';
     });
-    if (!_backgroundStarted) {
-      SoundService.playBackground();
-      _backgroundStarted = true;
-    }
-
     final result1 = await _spinReel(
       totalTicks: 10,
       onTick: (val) => setState(() => _slot1 = val),
