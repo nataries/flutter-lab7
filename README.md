@@ -43,7 +43,7 @@ flutter run -d chrome
 
 - Flutter 3.41.1
 - Dart 3.11.0
-- Платформа: Web, Android
+- **Платформа:** Web, Android
 
 ## 📚Что изучено
 
